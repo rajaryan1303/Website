@@ -1,0 +1,23 @@
+.nav {
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: chartreuse;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    background-color: brown;
+    color: crimson;
+}
+
+.nav a.active {
+    background-color: blueviolet;
+    color: darkblue;
+}
